@@ -12,4 +12,23 @@ namespace Homework_Project_3
         {
         }
     }
+    public abstract class Students
+    {
+        public int IDNumber;
+        public int DormNumber;
+        public string StudentFirstName;
+        public string StudnetLastName;
+    }
+    class StudentAthelets : Students
+    {
+
+    }
+    class StudentScholarship : Students
+    {
+
+    }
+    class StudetWorkers : Students
+    {
+
+    }
 }
